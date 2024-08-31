@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWICE TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TWICE TAC TOE</h1>
+        <div class="scoreboard">
+            <p>Player 1 (X): <span id="score1">0</span></p>
+            <p>Player 2 (O): <span id="score2">0</span></p>
+        </div>
+        <div class="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+
+        <div class="message" id="message"></div>
+        <button id="playAgain" class="hidden">Play Again</button>
+    </div>
+    <audio id="backgroundMusic" src="Background/[No Copyright Music] TWICE - Feel Special (Instrumental) [By EVEYLIA]  YOUA K-Pop.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
